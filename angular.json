@@ -15,6 +15,10 @@
           "skipTests": true,
           "type": "component",
           "standalone": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true,
+          "type": "service"
         }
       },
       "root": "",
@@ -32,9 +36,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "styles": ["src/styles.css"]
           },
           "configurations": {
             "production": {
